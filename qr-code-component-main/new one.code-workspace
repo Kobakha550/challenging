@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "new one",
+			"path": "../new one"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "qr-code-component-main"
+	}
+}

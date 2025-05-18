@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR Code</title>
+
+  <style>
+    body {
+      background-color: #d5e1ef;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .little-square {
+      background-color: white;
+      border-radius: 20px;
+      padding: 16px;
+      width: 100%;
+      max-width: 320px;
+      text-align: center;
+    }
+
+    .qr-container {
+      border-radius: 15px;
+      padding: 10px;
+    }
+
+    .qr-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+      margin: 20px 0 12px;
+    }
+
+    h5 {
+      font-size: 0.875rem;
+      font-weight: 400;
+      color: hsl(220, 15%, 55%);
+      line-height: 1.4;
+      margin: 0;
+    }
+
+    @media (min-width: 1024px) {
+      .little-square {
+        padding: 20px;
+        max-width: 350px;
+      }
+
+      h3 {
+        font-size: 1.3rem;
+      }
+
+      h5 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="little-square">
+    <div class="qr-container">
+      <img src="images/image-qr-code.png" alt="QR Code">
+    </div>
+    <h3>Improve your front-end skills by building projects</h3>
+    <h5>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h5>
+  </div>
+
+</body>
+</html>
